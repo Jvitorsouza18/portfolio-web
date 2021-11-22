@@ -12,6 +12,8 @@ p {
     line-height: 22px;
     background-color: black;
     padding: 20px;
+    border-radius: 20px;
+    font-weight: 700;
 }
 
 a {
