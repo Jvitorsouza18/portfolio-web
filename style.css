@@ -2,20 +2,38 @@ body {
     font-family: 'M PLUS 2', sans-serif;
     background-color: #0e0e52;
     color: white;
+    padding: 1%;
+}
+
+#nome {
+    text-align: center;
 }
 
 #profile-img {
     border-radius: 100px;
+    float: left;
+    height: 180px;
+    padding: 10px;
+    background-color: royalblue;
 }
 
-p {
-    line-height: 22px;
-    background-color: black;
-    padding: 20px;
-    border-radius: 20px;
-    font-weight: 700;
+.image-container {
+    height: 200px;
+    position: relative;
 }
+
+.descricao {
+    position: absolute;
+    top: 20%;
+    right: 48%;
+}
+
+
 
 a {
     text-decoration: none;
+}
+
+ul li:nth-child(odd) {
+    background-color: saddlebrown;
 }
